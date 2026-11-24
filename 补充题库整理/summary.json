@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-05-12T10:29:33.925Z",
+  "inputRoot": "./补充题库",
+  "outputRoot": "./补充题库整理",
+  "total": 3500,
+  "bySource": {
+    "补充题库-037g-cissp_test_sim": 250,
+    "补充题库-CISSP-Exam-Simulator": 1268,
+    "补充题库-Mock-CISSP-App": 200,
+    "补充题库-cissp-prep": 434,
+    "补充题库-cissp-wiki": 792,
+    "补充题库-mcc-cissp-quiz": 556
+  },
+  "byDomain": {
+    "D1": 641,
+    "D2": 362,
+    "D3": 481,
+    "D4": 446,
+    "D5": 427,
+    "D6": 377,
+    "D7": 410,
+    "D8": 356
+  }
+}

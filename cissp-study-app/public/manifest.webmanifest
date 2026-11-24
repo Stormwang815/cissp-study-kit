@@ -1,0 +1,17 @@
+{
+  "name": "CISSP 本地刷题",
+  "short_name": "CISSP",
+  "description": "本地优先的 CISSP 刷题、笔记、错题和间隔复习 App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071015",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local CISSP Question Bank",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "domain_id",
+      "domain_name",
+      "difficulty",
+      "question_en",
+      "options",
+      "correct_answer",
+      "explanation_cn",
+      "source"
+    ],
+    "properties": {
+      "id": { "type": "string" },
+      "domain_id": { "type": "string", "enum": ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8"] },
+      "domain_name": { "type": "string" },
+      "tags": { "type": "array", "items": { "type": "string" } },
+      "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+      "question_en": { "type": "string" },
+      "question_cn": { "type": "string" },
+      "options": {
+        "type": "array",
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": ["key", "text"],
+          "properties": {
+            "key": { "type": "string", "enum": ["A", "B", "C", "D"] },
+            "text": { "type": "string" }
+          }
+        }
+      },
+      "correct_answer": { "type": "string", "enum": ["A", "B", "C", "D"] },
+      "explanation_cn": { "type": "string" },
+      "distractor_explanations_cn": {
+        "type": "object",
+        "properties": {
+          "A": { "type": "string" },
+          "B": { "type": "string" },
+          "C": { "type": "string" },
+          "D": { "type": "string" }
+        }
+      },
+      "manager_mindset_cn": { "type": "string" },
+      "source": {
+        "type": "object",
+        "required": ["type", "name"],
+        "properties": {
+          "type": { "type": "string", "enum": ["original", "licensed", "public_domain", "open_license", "reference_only"] },
+          "name": { "type": "string" },
+          "url": { "type": "string" },
+          "license": { "type": "string" }
+        }
+      }
+    }
+  }
+}

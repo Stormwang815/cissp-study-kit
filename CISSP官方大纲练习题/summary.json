@@ -1,0 +1,12 @@
+{
+  "source_pdf": "CISSP-Exam-Outline-May-2021-Chinese.pdf",
+  "source_effective_date_detected": "2024-04-15",
+  "topic_count": 508,
+  "questions_per_topic": 3,
+  "question_count": 1524,
+  "output_files": [
+    "CISSP官方大纲练习题/cissp_official_outline_questions.json",
+    "CISSP官方大纲练习题/coverage_matrix.csv",
+    "CISSP官方大纲练习题/README.md"
+  ]
+}

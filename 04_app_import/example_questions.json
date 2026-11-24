@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Q0001",
+    "domain_id": "D1",
+    "domain_name": "Security and Risk Management",
+    "tags": ["risk management", "asset owner", "manager mindset"],
+    "difficulty": "medium",
+    "question_en": "A security team identifies a high-risk legacy system that supports a critical business process. The technical team recommends immediate shutdown, but the business unit says downtime would cause significant operational impact. What should the security manager do FIRST?",
+    "question_cn": "安全团队发现一个支持关键业务流程的高风险遗留系统。技术团队建议立即关停，但业务部门表示停机会造成重大运营影响。安全经理首先应该做什么？",
+    "options": [
+      { "key": "A", "text": "Shut down the system immediately to eliminate the risk." },
+      { "key": "B", "text": "Escalate the risk decision to the appropriate business owner." },
+      { "key": "C", "text": "Accept the risk on behalf of the business unit." },
+      { "key": "D", "text": "Deploy additional monitoring and continue operating indefinitely." }
+    ],
+    "correct_answer": "B",
+    "explanation_cn": "CISSP 视角下，安全经理负责识别、分析和沟通风险，但业务风险通常应由业务 owner 或适当的风险 owner 决策。第一步应将风险、影响和可选处置方案提交给有权承担业务风险的人。",
+    "distractor_explanations_cn": {
+      "A": "直接关停可能造成业务损害，安全团队通常不能在未评估业务影响和授权的情况下单方面做出该决定。",
+      "B": "正确。风险接受或重大业务影响决策应由合适的业务/风险 owner 作出。",
+      "C": "安全经理不能替业务 owner 接受业务风险。",
+      "D": "监控可能是临时补偿控制，但不能替代正式的风险决策。"
+    },
+    "manager_mindset_cn": "先治理、授权和风险归属，再执行技术动作。",
+    "source": {
+      "type": "original",
+      "name": "self-authored",
+      "url": "",
+      "license": "private personal use"
+    }
+  }
+]

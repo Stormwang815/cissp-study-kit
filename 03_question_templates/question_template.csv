@@ -1,0 +1,2 @@
+id,domain_id,domain_name,tags,difficulty,question_en,question_cn,option_a,option_b,option_c,option_d,correct_answer,explanation_cn,why_a_wrong_cn,why_b_wrong_cn,why_c_wrong_cn,why_d_wrong_cn,manager_mindset_cn,source_type,source_name,source_url,review_status
+Q0001,D1,Security and Risk Management,"risk management;due diligence",medium,"Write your original English question here","写中文翻译","Option A","Option B","Option C","Option D",A,"解释为什么正确","解释 A","解释 B","解释 C","解释 D","CISSP 管理者视角提示",original,self,,draft

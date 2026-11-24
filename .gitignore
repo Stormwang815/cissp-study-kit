@@ -1,0 +1,37 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node & Frontend build
+node_modules/
+.npm-cache/
+dist/
+*.log
+npm-debug.log*
+
+# Generated app seed data (rebuilt via `npm run prepare-data`)
+cissp-study-app/src/data/seedData.json
+
+# Translation & scraper caches
+**/translation_cache*.json
+**/raw_cache/
+
+# Android / Gradle / Capacitor generated & secrets
+cissp-study-app/android/.gradle/
+cissp-study-app/android/build/
+cissp-study-app/android/app/build/
+cissp-study-app/android/local.properties
+cissp-study-app/android/keystore.properties
+cissp-study-app/android/capacitor-cordova-android-plugins/
+cissp-study-app/android/app/src/main/assets/public/
+*.jks
+*.keystore
+*.apk
+*.aab
+*.ap_
+*.dex
+*.hprof

@@ -1,0 +1,8 @@
+{
+  "appId": "com.local.cisspstudy",
+  "appName": "CISSP 本地刷题",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

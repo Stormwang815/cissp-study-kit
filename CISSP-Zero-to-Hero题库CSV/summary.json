@@ -1,0 +1,21 @@
+{
+  "source_folder": "CISSP-Zero-to-Hero-main",
+  "formal_question_files_scanned": 16,
+  "questions_extracted": 229,
+  "domains": {
+    "D1": 60,
+    "D2": 39,
+    "D3": 22,
+    "D4": 24,
+    "D5": 20,
+    "D6": 14,
+    "D7": 30,
+    "D8": 20
+  },
+  "multi_answer_rows": 57,
+  "outputs": [
+    "CISSP-Zero-to-Hero题库CSV/cissp_zero_to_hero_questions_zh_app.csv",
+    "CISSP-Zero-to-Hero题库CSV/cissp_zero_to_hero_questions_raw_en.csv",
+    "CISSP-Zero-to-Hero题库CSV/translation_cache.json"
+  ]
+}

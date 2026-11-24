@@ -1,0 +1,134 @@
+{
+  "version": "2026-05-11",
+  "basis": "ISC2 CISSP exam outline effective April 15 2024, organized for local study app use",
+  "domains": [
+    {
+      "id": "D1",
+      "name": "Security and Risk Management",
+      "name_cn": "安全与风险管理",
+      "suggested_tags": [
+        "CIA",
+        "governance",
+        "risk management",
+        "compliance",
+        "ethics",
+        "legal",
+        "due care",
+        "due diligence",
+        "security policy",
+        "business continuity"
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Asset Security",
+      "name_cn": "资产安全",
+      "suggested_tags": [
+        "data classification",
+        "data ownership",
+        "privacy",
+        "data lifecycle",
+        "retention",
+        "media handling",
+        "data remanence",
+        "data protection"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Security Architecture and Engineering",
+      "name_cn": "安全架构与工程",
+      "suggested_tags": [
+        "security models",
+        "secure design",
+        "cryptography",
+        "TPM",
+        "trusted computing",
+        "physical security",
+        "cloud architecture",
+        "system resilience"
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Communication and Network Security",
+      "name_cn": "通信与网络安全",
+      "suggested_tags": [
+        "OSI",
+        "TCP/IP",
+        "network segmentation",
+        "VPN",
+        "TLS",
+        "wireless",
+        "firewall",
+        "IDS IPS",
+        "secure protocols"
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Identity and Access Management",
+      "name_cn": "身份与访问管理",
+      "suggested_tags": [
+        "IAM",
+        "authentication",
+        "authorization",
+        "accountability",
+        "RBAC",
+        "ABAC",
+        "MFA",
+        "federation",
+        "SSO",
+        "least privilege"
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Security Assessment and Testing",
+      "name_cn": "安全评估与测试",
+      "suggested_tags": [
+        "audit",
+        "vulnerability assessment",
+        "penetration testing",
+        "security testing",
+        "metrics",
+        "log review",
+        "control testing",
+        "third-party assessment"
+      ]
+    },
+    {
+      "id": "D7",
+      "name": "Security Operations",
+      "name_cn": "安全运营",
+      "suggested_tags": [
+        "incident response",
+        "forensics",
+        "logging",
+        "monitoring",
+        "change management",
+        "BCP",
+        "DRP",
+        "backup",
+        "physical operations",
+        "resource protection"
+      ]
+    },
+    {
+      "id": "D8",
+      "name": "Software Development Security",
+      "name_cn": "软件开发安全",
+      "suggested_tags": [
+        "SDLC",
+        "secure coding",
+        "DevSecOps",
+        "threat modeling",
+        "OWASP",
+        "code review",
+        "software testing",
+        "API security",
+        "supply chain"
+      ]
+    }
+  ]
+}
